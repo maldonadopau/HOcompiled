@@ -9,7 +9,8 @@
 0000000000000000 d val3
 0000000000000004 D val4
 ```
-Descriptores
+
+**Descriptores**
 * t/T = texto
 * u/U = undefined
 * r/R = read only
@@ -18,7 +19,7 @@ Descriptores
 * mayuscula = se puede acceder desde afuera
 * minuscula = no se puede acceder desde afuera
 
-Simbolos
+**Simbolos**
 * add_abs
 * main
 * printf

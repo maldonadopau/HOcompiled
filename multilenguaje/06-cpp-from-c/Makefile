@@ -1,7 +1,10 @@
-default: f-main.e
+default: c-main.e
 
-f-main.e: f-main.o f-sum.o
-	gfortran $^ -o $@
+c-main.e: c-main.o cpp-sum.o
+	gcc $^ -o $@
 
-%.o: %.f90
-	gfortran $^ -c -o $@
+c-main.o: c-main.c
+	gcc $^ -c -o $@
+
+cpp-sum.o: cpp-sum.cpp
+	g++ $^ -c -o $@

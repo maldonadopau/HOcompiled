@@ -7,5 +7,4 @@ int sum_abs(const int * const in, const int num) {
        sum += abs(in[i]);
    }
    return sum;
-}
- 
+} 
